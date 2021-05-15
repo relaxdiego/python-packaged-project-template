@@ -37,7 +37,7 @@ pyenv virtualenv $python_version changeme
 
 ```
 cat >.python-version<<EOF
-aircrat
+changeme
 $python_version
 EOF
 ```
