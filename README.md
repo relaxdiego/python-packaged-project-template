@@ -21,8 +21,8 @@ Once the above dependencies are installed, do the following:
 1. Install an isolated environment for your preferred Python version.
 
 ```
-python_version=<YOUR-PREFERRED-PYTHON-VERSION>
-pyenv install --enable-shared $python_version
+export python_version=<YOUR-PREFERRED-PYTHON-VERSION>
+pyenv install $python_version
 ```
 
 NOTE: For more available versions, run `pyenv install --list`
